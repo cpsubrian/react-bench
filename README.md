@@ -50,7 +50,7 @@ Making 50000 requests to http://localhost:3000/handlebars
   50000 requests in 11.98s, 14.88MB read
 Requests/sec:   4173.81
 Transfer/sec:      1.24MB
-``
+```
 
 
 React
@@ -69,4 +69,3 @@ Making 50000 requests to http://localhost:3000/react
 Requests/sec:   1853.80
 Transfer/sec:      0.85MB
 ```
-
