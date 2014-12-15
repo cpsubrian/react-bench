@@ -1,5 +1,5 @@
-Comparing Handlebars Rendering to React
-=======================================
+Server-side Rendering
+=====================
 
 Some naive benchmarks.
 
