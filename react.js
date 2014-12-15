@@ -17,10 +17,10 @@ var Page = React.createClass({
         <head>
           <title>{this.props.title}</title>
         </head>
-        <html>
+        <body>
           <h1>{this.props.title}</h1>
           <p>{this.props.message}</p>
-        </html>
+        </body>
       </html>
     );
   }
