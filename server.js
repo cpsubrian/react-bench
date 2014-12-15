@@ -1,9 +1,8 @@
-// template root is implied as ./ or ./views
 var server = require('http').createServer()
   , fs = require('fs')
   , nodejsx = require('node-jsx').install()
   , handlebarsHandler = require('./handlebars')
-  , reactHandler = require('./react.jsx');
+  , reactHandler = require('./react');
 
 var notFound = fs.readFileSync('./page.html', 'utf8');
 
