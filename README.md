@@ -69,3 +69,17 @@ Making 50000 requests to http://localhost:3000/react
 Requests/sec:   1853.80
 Transfer/sec:      0.85MB
 ```
+
+Setting `NODE_EVN=production` with react.
+
+```
+$ wrk -c 20 -r 50000 -t 4 http://localhost:3000/react
+Making 50000 requests to http://localhost:3000/react
+  4 threads and 20 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     4.33ms  626.65us   9.18ms   94.35%
+    Req/Sec     1.00k     0.00     1.00k   100.00%
+  50000 requests in 10.79s, 23.06MB read
+Requests/sec:   4635.51
+Transfer/sec:      2.14MB
+```
